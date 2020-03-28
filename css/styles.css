@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+li .One {
+    color: aqua;
+}
+
+.IMG-Crime{
+    width: 564 px;
+    height: 423 px; 
+}
+
+.container {
+    background-image: url(../Images/67569.jpg), -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(201,196,196,1.00) 13.47%,rgba(163,162,162,1.00) 26.32%,rgba(147,145,145,1.00) 41.66%,rgba(109,106,106,1.00) 59.07%,rgba(94,92,92,1.00) 71.09%,rgba(67,66,66,1.00) 81.45%,rgba(69,69,69,1.00) 93.06%,rgba(43,42,42,1.00) 100%);
+    background-image: url(../Images/67569.jpg), -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(201,196,196,1.00) 13.47%,rgba(163,162,162,1.00) 26.32%,rgba(147,145,145,1.00) 41.66%,rgba(109,106,106,1.00) 59.07%,rgba(94,92,92,1.00) 71.09%,rgba(67,66,66,1.00) 81.45%,rgba(69,69,69,1.00) 93.06%,rgba(43,42,42,1.00) 100%);
+    background-image: url(../Images/67569.jpg), -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(201,196,196,1.00) 13.47%,rgba(163,162,162,1.00) 26.32%,rgba(147,145,145,1.00) 41.66%,rgba(109,106,106,1.00) 59.07%,rgba(94,92,92,1.00) 71.09%,rgba(67,66,66,1.00) 81.45%,rgba(69,69,69,1.00) 93.06%,rgba(43,42,42,1.00) 100%);
+    background-image: url(../Images/67569.jpg), linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(201,196,196,1.00) 13.47%,rgba(163,162,162,1.00) 26.32%,rgba(147,145,145,1.00) 41.66%,rgba(109,106,106,1.00) 59.07%,rgba(94,92,92,1.00) 71.09%,rgba(67,66,66,1.00) 81.45%,rgba(69,69,69,1.00) 93.06%,rgba(43,42,42,1.00) 100%);
+    border-width: thin;
+    border-color: #554F4F;
+    text-shadow: 0px 0px 0px;
+    -webkit-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+    color: #0D333E;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0 px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    border-width: thin;
+    border-style: none;
+    border-collapse: collapse;
+}
+
+.nav .main {
+    text-align: center;
+    text-decoration: underline;
+    color: #3D1111;
+    text-shadow: 0 0;
+    text-transform: uppercase;
+}
+
+.content .main .nav {
+    color: #000000;
+    background-clip: border-box;
+    background-origin: padding-box;
+    -webkit-box-shadow: 61px 0px 44px 0pt;
+    box-shadow: 61px 0px 44px 0pt;
+    background-attachment: scroll;
+    background-position: -17% 3%;
+    background-image: url(url);
+    background-color: #8F7878;
+    height: 300px;
+}

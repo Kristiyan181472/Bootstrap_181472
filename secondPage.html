@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags charset and responsiveness -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Links to local bootstrap components   -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Local bootstrap javascript -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.4.1.slim.js"></script>
+
+    <title>My Website</title>
+</head>
+
+<header>
+    My Website
+</header>
+<body>
+
+<!--Base website container so it stays with clear sides-->
+<div class="container">
+    <!-- Website content -->
+    <div class="content">
+        <nav class="navbar navbar-inverse bg-dark">
+            <div class="container-fluid">
+                <!-- Navigation bar header -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">My website</a>
+                </div>
+                <!-- Havigation bar elements -->
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">First Page</a></li>
+                    <li><a href="secondPage.html">Second Page</a></li>
+                    <li><a href="#">Some Third Page</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Registration Form div -->
+        <div class="registrationForm">
+            <h2>Registration page</h2>
+            <form>
+                <!-- Labels and input fields for a registration                -->
+                <label for="username">Username</label>
+                <input class="form-control" type="text" id="username" name="Username"><br>
+                <label for="email">E-mail</label>
+                <input class="form-control" type="email" id="email" name="Username"><br>
+                <label for="password">Password</label>
+                <input class="form-control" type="password" id="password" name="Username"><br>
+                <label for="passwordAgain">Repeat password</label>
+                <input class="form-control" type="password" id="passwordAgain" name="Username"><br>
+
+                <label for="gender">Gender</label>
+                <select class="form-control" id="gender" name="Gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="what">N/A</option>
+                </select>
+
+                <label for="shortIntroduction">Short Introduction</label>
+                <textarea class="form-control" id="shortIntroduction" rows="5"></textarea>
+            <br><button class="btn btn-primary" type="submit">Register</button>
+            </form>
+        </div>
+        <nav>
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+                <li class="page-item"><a class="page-link" href="secondPage.html">2</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="footer">
+        Copyright &copy; hey hey
+    </div>
+</div>
+</body>
+</html>

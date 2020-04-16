@@ -34,8 +34,6 @@ div h2 {
 }
 
 img #crimeImage {
-    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 }

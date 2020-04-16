@@ -4,13 +4,9 @@
     <!-- Meta tags charset and responsiveness -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Links to local bootstrap components   -->
-    <link rel="stylesheet"  type ="text/css" href="css/bootstrap.css">
+		<!-- Links to local bootstrap components   -->
+    <link rel="stylesheet"  type ="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type = "text/css" href="css/styles.css">
-    <!-- Local bootstrap javascript -->
-    <script src="js/bootstrap.js"></script>
-    <script src="js/jquery-3.4.1.slim.js"></script>
-
 <title>My Website</title>
 
 </head>
@@ -50,7 +46,9 @@
                     Mauris tempor diam at elit porttitor, sed blandit enim bibendum.
                 </p>
             </div>
-            <img src="Images/Crime2.png" id="crimeImage" alt="Crime wraps"/>
+				<div class="col-12">
+            <img class="img-responsive" src="Images/Crime2.png" id="crimeImage" alt="Crime wraps" />
+					</div>
             <nav>
                 <ul class="pagination justify-content-center">
                     <li class="page-item"><a class="page-link" href="index.html">1</a></li>
@@ -58,9 +56,12 @@
                 </ul>
             </nav>
         </div>
-        <div class="footer">
+        <footer>
             Copyright &copy; hey hey
-        </div>
+        </footer>
     </div>
+	 <!-- Local bootstrap javascript -->
+ <script src="js/jquery-3.4.1.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

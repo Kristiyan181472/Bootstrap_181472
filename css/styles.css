@@ -15,6 +15,10 @@ header {
     text-align: center;
 
 }
+#infoContainer {
+    margin-top: 4%;
+    margin-bottom: 7%;
+}
 
 p.textBoxes {
     background-color: white;
@@ -24,7 +28,43 @@ p.textBoxes {
     margin-top: 1em;
     padding: 2%;
 }
+#containerBorder1 {
+    box-sizing: border-box;
+    border-width: 3px ;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      blue, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}   
+#containerBorder2 {
+    box-sizing: border-box;
+    border-width: 3px ;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      blue, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}   
+#containerBorder3 {
+    box-sizing: border-box;
+}   
 
+#containerBorder4 {
+    box-sizing: border-box;
+    border-width: 3px ;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      blue, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}   
 div p {
     padding: 1%;
 }

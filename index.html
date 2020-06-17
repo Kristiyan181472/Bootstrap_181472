@@ -10,13 +10,13 @@
 <title>My Website</title>
 
 </head>
-<header>My Website</header>
 <body>
-    <!--Base website container so it stays with clear sides-->
-    <div class="container">
+	<header>My Website</header>
         <!-- Website content -->
         <div class="content">
-            <nav class="navbar navbar-inverse bg-dark">
+        	
+            <nav class="navbar navbar-inverse bg-dark"> 
+            	<div class="d-md-flex d-block flex-row mx-md-auto mx-0">
                 <!-- Navigation bar header -->
                 <div class="container-fluid">
                     <div class="navbar-header">
@@ -29,33 +29,49 @@
                         <li><a href="#">Some Third Page</a></li>
                     </ul>
                 </div>
+                </div>
+               
             </nav>
-            <div>
-                <h2>Home page</h2>
-                <p class="textBoxes">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum, orci ut consequat mattis,
-                    elit ligula rutrum ante, id volutpat justo sapien in nibh. Sed iaculis fermentum felis egestas cursus.
-                    In massa ligula, venenatis non egestas non, vulputate non arcu. In hac habitasse platea dictumst.
-                    Cras aliquet metus ut dui sollicitudin finibus. Aliquam id nisi eget mauris tempus aliquet vitae sit amet sapien.
-                    Mauris tempor diam at elit porttitor, sed blandit enim bibendum.
-                </p>
-                <a class="informationLink" href="https://www.buas.nl//">More information here!</a>
-                <p class="textBoxes">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum, orci ut consequat mattis,
-                    elit ligula rutrum ante, id volutpat justo sapien in nibh. Seda iaculis fermentum felis egestas cursus.
-                    In massa ligula, venenatis non egestas non, vulputate non arcu. In hac habitasse platea dictumst.
-                    Cras aliquet metus ut dui sollicitudin finibus. Aliquam id nisi eget mauris tempus aliquet vitae sit amet sapien.
-                    Mauris tempor diam at elit porttitor, sed blandit enim bibendum.
-                </p>
+            <div class="container">
+    <div id="infoContainer">
+      <div class="row justify-content-center">
+          <div class="col-md-3 col-sm-6 col-xs-12" id="containerBorder1">
+            <h1> About me </h1>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisl orci, malesuada at varius nec, ultrices sed elit. Integer in tortor est. Pellentesque semper eu massa eget maximus. Suspendisse porttitor ex vel augue fringilla, a mattis enim cursus. Nam molestie varius ligula, ultrices aliquam mi varius at. Quisque feugiat augue nulla, ut gravida magna elementum quis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam interdum justo nec mi mollis rutrum.
+            </p>
             </div>
-				<div class="col-12">
+
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <h1> My Interests </h1>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisl orci, malesuada at varius nec, ultrices sed elit. Integer in tortor est. Pellentesque semper eu massa eget maximus. Suspendisse porttitor ex vel augue fringilla, a mattis enim cursus. Nam molestie varius ligula, ultrices aliquam mi varius at. Quisque feugiat augue nulla, ut gravida magna elementum quis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam interdum justo nec mi mollis rutrum.
+            </p>
+            </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12" id="containerBorder2">
+            <h1> My University </h1>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisl orci, malesuada at varius nec, ultrices sed elit. Integer in tortor est. Pellentesque semper eu massa eget maximus. Suspendisse porttitor ex vel augue fringilla, a mattis enim cursus. Nam molestie varius ligula, ultrices aliquam mi varius at. Quisque feugiat a
+            </p>
+            <p>
+              Reach my Uni
+            </p>
+            <a href="https://www.buas.nl/" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Click here</a>
+          </div>
+      </div>
+   </div>
+   	<div class="col-12">
             <img class="img-responsive" src="Images/Crime2.png" id="crimeImage" alt="Crime wraps" />
 					</div>
-            <nav>
+					            <nav>
                 <ul class="pagination justify-content-center">
                     <li class="page-item"><a class="page-link" href="index.html">1</a></li>
                     <li class="page-item"><a class="page-link" href="secondPage.html">2</a></li>
                 </ul>
             </nav>
-        </div>
+ </div>
+
         <footer>
             Copyright &copy; hey hey
         </footer>

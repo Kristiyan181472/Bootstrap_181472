@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+    box-shadow: 0 0 8em #7a7a7a inset;
+    border: solid 2px #7a7a7a;
+    border-radius: 15px;
+}
+
+header {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+.pageContent {
+    text-align: center;
+
+}
+
+p.textBoxes {
+    background-color: white;
+    box-shadow: 0 0 2em #7a7a7a inset;
+    border: solid 2px #7a7a7a;
+    border-radius: 15px;
+    margin-top: 1em;
+    padding: 2%;
+}
+
+div p {
+    padding: 1%;
+}
+
+div h2 {
+    text-align: center;
+}
+img#crimeImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
